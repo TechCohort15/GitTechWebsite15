@@ -5,7 +5,7 @@
 
  /* :root element to set variables for later use, can alter here to modify appearance?*/
 :root {
-	--cell-size: 220px;
+	--cell-size: 255px;
 
 	--color: #81c3fd; /* light blue for hover */
 	--colorX: #e74197; /* for hover X*/
