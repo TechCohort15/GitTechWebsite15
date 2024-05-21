@@ -13,7 +13,7 @@
 	--colorX-set: #6f0404; /* when set X*/ 
 	--colorO: #2cf540; /* for hover O*/
 	--colorO-set: #078e1f; /* when set O*/
-	--background-color: black;
+	--background-color: white;
 
 	--l: 10px; /* X line-width */
 }
@@ -35,15 +35,19 @@ body {
 }
 
 #background {
-	background-color: orange;
+	background-image: url("sunspots.jpg");
 	
+}
+
+#board {
+	color: black;
 }
 
 /*Cell Appearance*/
 .cell {
 	width: var(--cell-size);
 	height: var(--cell-size);
-	border: 1px solid black;
+	border: 1px solid white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
