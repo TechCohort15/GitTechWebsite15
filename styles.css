@@ -26,7 +26,10 @@ html {
 
   .card img{
 
-    width: 100%;
+    /*width: 100%; */
+    /* the following is for the image to resize
+    max-width: 100%;
+    height: auto;
   }
   
   /* Some left and right padding inside the container */
